@@ -4,6 +4,10 @@ def k_ke_c(kc):                         #function untuk mengubah dari kelvin ke 
     kce = kc - 273.15                   #rumus
     return kce                          #mengubah (update) nilai kce
 
+def k_ke_f(kf):                         #function untuk mengubah dari kelvin ke fahrenheit
+    kfa = (((kf-273.15)*9/5)-32)        #rumus
+    return kfa                          #mengubah (update) nilai kfa
+
 def c_ke_k(ck):                         #function untuk mengubah dari celsius ke kelvin
     cke = ck + 273.15                   #rumus
     return cke                          #mengubah (update) nilai cke
@@ -12,9 +16,6 @@ def c_ke_f(cf):                         #function untuk mengubah dari celsius ke
     cfa = ((cf*9/5)+32)                 #rumus
     return cfa                          #mengubah (update) nilai cfa
 
-def k_ke_f(kf):                         #function untuk mengubah dari kelvin ke fahrenheit
-    kfa = (((kf-273.15)*9/5)-32)        #rumus
-    return kfa                          #mengubah (update) nilai kfa
 
 def f_ke_c(fc):                         #function untuk mengubah dari fahrenheit ke celsius
     fce = ((fc-32)*5/9)                 #rumus
